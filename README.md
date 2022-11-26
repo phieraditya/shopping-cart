@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# A Shopping Cart with React JS and Stripe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), [react-bootstrap](https://react-bootstrap.github.io/) and [Stripe](https://stripe.com/).
 
 ## Available Scripts
 
