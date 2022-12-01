@@ -11,7 +11,7 @@ const ProductCard = (props) => {
     <Card>
       <Card.Body>
         <Card.Title>{product.title}</Card.Title>
-        <Card.Text>Rp.{product.price.toLocaleString()}k</Card.Text>
+        <Card.Text>Rp.{product.price.toLocaleString()}</Card.Text>
         {productQuantity > 0 ? (
           <>
             <Form as={Row}>

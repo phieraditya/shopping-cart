@@ -42,7 +42,7 @@ function CartProvider({ children }) {
   function removeOneFromCart(id) {
     const quantity = getProductQuantity(id)
 
-    if (quantity == 1) {
+    if (quantity === 1) {
       deleteFromCart(id)
     } else {
       setCartProducts(
@@ -57,7 +57,7 @@ function CartProvider({ children }) {
 
   function deleteFromCart(id) {
     setCartProducts(
-      cartProducts.filter((currentProduct) => currentProduct.id != id)
+      cartProducts.filter((currentProduct) => currentProduct.id !== id)
     )
   }
 
@@ -66,6 +66,7 @@ function CartProvider({ children }) {
     cartProducts.map((cartItem) => {
       const productData = getProductData(cartItem.id)
       totalCost += productData.price * cartItem.quantity
+      return totalCost
     })
     return totalCost
   }
