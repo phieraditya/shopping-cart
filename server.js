@@ -14,3 +14,24 @@ const app = express()
 app.use(cors())
 app.use(express.static('public'))
 app.use(express.json())
+
+app.post('/checkout', async (req, res) => {
+  /*
+Data from react
+req.body.items
+[
+  {
+    id: 1,
+    quantity: 3
+  }
+]
+
+Stripe wants
+[
+  {
+    price: 99000
+    quantity: 3
+  }
+]
+  */
+})
