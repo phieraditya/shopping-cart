@@ -1,6 +1,6 @@
 # A Shopping Cart with React JS and Stripe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), [react-bootstrap](https://react-bootstrap.github.io/) and [Stripe](https://stripe.com/).
+This project was bootstrapped in the front-end with [Create React App](https://github.com/facebook/create-react-app) and [react-bootstrap](https://react-bootstrap.github.io/), and in the back-end with [Express](https://expressjs.com/), [CORS](https://www.npmjs.com/package/cors) and [Stripe](https://stripe.com/).
 
 ## Available Scripts
 
